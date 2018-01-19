@@ -1,0 +1,19 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.e9c2f6b7-2f6e-41c6-9800-b3a31d371e37",
+      "was_cloned": false,
+      "merge": {
+        "skillManifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "ask-custom-JokeSkill-default"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
